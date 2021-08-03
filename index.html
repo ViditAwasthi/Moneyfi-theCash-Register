@@ -8,7 +8,38 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1 class="heading">Monify - The Cash Register App</h1>
+        <p>Now there is no need of Calculators! Just enter the Amount and get the Number of notes which are to be returned!</p>
+
+        <label for="bill-amount">Bill Amount:</label>
+        <input id = "bill-amount" type="text"/>
+        <button>Next</button>
+
+
+        <label for="cash-given">Cash Given:</label>
+        <input id = "cash-given" type="text"/>
+
+        <button id="check-button">Check</button>
+        <p id="error-message"></p>
+        <table>
+            <Caption>Return Change: </Caption>
+            <tr> 
+            <th>No. of Notes</th>    
+            <td></td>
+            </tr>
+            <tr> 
+             <th>Notes</th>
+             <td>2000</td>
+             <td>500</td>
+             <td>100</td>
+             <td>20</td>
+             <td>10</td>
+             <td>5</td>
+             <td>1</td>   
+            </tr>
+        </table>
+    </div>
 </body>
 <script src="./app.js"></script>
 </html>
