@@ -28,6 +28,7 @@ nextButton.addEventListener("click", function checkAmount(){
 checkButton.addEventListener("click", function validateAmount(){
     errorMessage.innerHTML ="";
     cashErrorMessage.innerHTML="";
+    returnTable.style.display="none";
         
     if(isNaN(cashAmount.value) || isNaN(billAmount.value)){
         cashErrorMessage.innerHTML="Cash & Bill Amount should be a number!"   
