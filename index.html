@@ -8,23 +8,25 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <div class="container">
+    <nav>
         <h1 class="heading">Monify - The Cash Register App</h1>
-        <p>Now there is no need of Calculators! Just enter the Amount and get the Number of notes which are to be returned!</p>
+        <p class="heading-text">Now there is no need of Calculators! Just enter the Amount and get the Number of notes which are to be returned!</p>
+    </nav>
 
-        <label for="bill-amount">Bill Amount:</label>
+    <div class="container">
+        <label id="bill-label" for="bill-amount">Bill Amount:</label>
         <input id = "bill-amount" type="text"/>
         <button id="next-button">Next</button>
         <p id="error-message"></p>
 
         <div id="hidden-container">
-        <label for="cash-given">Cash Given:</label>
+        <label id="cash-label" for="cash-given">Cash Given:</label>
         <input id = "cash-given" type="text"/>
 
         <button id="check-button">Check</button>
         <p id="cash-error-message"></p>
         </div>
-        <table>
+        <table id="return-table">
             <Caption>Return Change: </Caption>
             <tr> 
             <th>No. of Notes</th>    
@@ -38,16 +40,19 @@
             </tr>
             <tr> 
              <th>Notes</th>
-             <td>2000</td>
-             <td>500</td>
-             <td>100</td>
-             <td>20</td>
-             <td>10</td>
-             <td>5</td>
-             <td>1</td>   
+             <td class="column-notes">2000</td>
+             <td class="column-notes">500</td>
+             <td class="column-notes">100</td>
+             <td class="column-notes">20</td>
+             <td class="column-notes">10</td>
+             <td class="column-notes">5</td>
+             <td class="column-notes">1</td>   
             </tr>
         </table>
     </div>
+    <!-- <footer>
+       <p>Made by Vidit</p>
+    </footer> -->
 </body>
 <script src="./app.js"></script>
 </html>

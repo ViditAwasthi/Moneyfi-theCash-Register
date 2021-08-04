@@ -1,19 +1,110 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    text-align: center;
+    background-color: #FFE3E3;
+    height: 100%;
+    
 }
-
+nav{
+    background-color: #FFA0A0;
+    color:black;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: bolder;
+}
 .container{
-    width: 50vw;
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #FFA0A0;
+    border-radius: 2rem;
+    padding: 1.5rem
 }
 
 #hidden-container{
     display: none;
 }
 
+#cash-label{
+font-weight: bolder;
+}
+
+#bill-label{
+    font-weight: bolder;
+
+}
+
 #next-button{
 display: block;
+padding: 0.6rem 1.5rem;
+margin: auto;
+margin-bottom: 20px;
+border-radius: 1rem;
+border: 2px solid #FFE3E3;
+font-weight: bolder;
+color: #FFA0A0;
+background-color: white;
+cursor: pointer;
+
 }
 
 #check-button{
+padding: 0.6rem 1.5rem;
 display: block;
+margin: auto;
+border-radius: 1rem;
+border: 2px solid #FFE3E3;
+font-weight: bolder;
+color: #FFA0A0;
+background-color: white;
+cursor: pointer;
+}
+
+#bill-amount{
+    padding: 0.6rem;
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 1rem;
+    border: 2px solid white;
+}
+
+#cash-given{
+    padding: 0.6rem;
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 1rem;
+    border: 2px solid white;
+
+
+}
+table{
+    display: none;
+    margin: auto;
+}
+td{
+padding: 1.2rem;
+border: 2px solid #FFE3E3;
+}
+th{
+    border: 1px solid #FFE3E3;
+    background-color: #FFE3E3;
+}
+.column-notes{
+    background-color: #FFE3E3;
+
+}
+table caption{
+    padding: 1rem;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: #FFA0A0;
+    padding: 0.4rem;
+    color: white;
+    font-weight: bolder;
 }
