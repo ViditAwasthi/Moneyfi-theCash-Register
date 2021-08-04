@@ -14,19 +14,27 @@
 
         <label for="bill-amount">Bill Amount:</label>
         <input id = "bill-amount" type="text"/>
-        <button>Next</button>
+        <button id="next-button">Next</button>
+        <p id="error-message"></p>
 
-
+        <div id="hidden-container">
         <label for="cash-given">Cash Given:</label>
         <input id = "cash-given" type="text"/>
 
         <button id="check-button">Check</button>
-        <p id="error-message"></p>
+        <p id="cash-error-message"></p>
+        </div>
         <table>
             <Caption>Return Change: </Caption>
             <tr> 
             <th>No. of Notes</th>    
-            <td></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
             </tr>
             <tr> 
              <th>Notes</th>
