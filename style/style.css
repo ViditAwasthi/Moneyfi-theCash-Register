@@ -1,21 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
     text-align: center;
     background-color: #FFE3E3;
     height: 100%;
-    
+
 }
-nav{
+
+nav {
     background-color: #FFA0A0;
-    color:black;
+    color: black;
     padding: 1rem;
     border-radius: 1rem;
     font-weight: bolder;
 }
-.container{
+
+.container {
     max-width: 600px;
     margin: 40px auto;
     background-color: #FFA0A0;
@@ -23,46 +25,46 @@ nav{
     padding: 1.5rem
 }
 
-#hidden-container{
+#hidden-container {
     display: none;
 }
 
-#cash-label{
-font-weight: bolder;
+#cash-label {
+    font-weight: bolder;
 }
 
-#bill-label{
+#bill-label {
     font-weight: bolder;
 
 }
 
-#next-button{
-display: block;
-padding: 0.6rem 1.5rem;
-margin: auto;
-margin-bottom: 20px;
-border-radius: 1rem;
-border: 2px solid #FFE3E3;
-font-weight: bolder;
-color: #FFA0A0;
-background-color: white;
-cursor: pointer;
+#next-button {
+    display: block;
+    padding: 0.6rem 1.5rem;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    border: 2px solid #FFE3E3;
+    font-weight: bolder;
+    color: #FFA0A0;
+    background-color: white;
+    cursor: pointer;
 
 }
 
-#check-button{
-padding: 0.6rem 1.5rem;
-display: block;
-margin: auto;
-border-radius: 1rem;
-border: 2px solid #FFE3E3;
-font-weight: bolder;
-color: #FFA0A0;
-background-color: white;
-cursor: pointer;
+#check-button {
+    padding: 0.6rem 1.5rem;
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+    border: 2px solid #FFE3E3;
+    font-weight: bolder;
+    color: #FFA0A0;
+    background-color: white;
+    cursor: pointer;
 }
 
-#bill-amount{
+#bill-amount {
     padding: 0.6rem;
     display: block;
     margin: 20px auto;
@@ -71,7 +73,7 @@ cursor: pointer;
     border: 2px solid white;
 }
 
-#cash-given{
+#cash-given {
     padding: 0.6rem;
     display: block;
     margin: 20px auto;
@@ -81,28 +83,33 @@ cursor: pointer;
 
 
 }
-table{
+
+table {
     display: none;
     margin: auto;
 }
-td{
-padding: 1.2rem;
-border: 2px solid #FFE3E3;
+
+td {
+    padding: 1.2rem;
+    border: 2px solid #FFE3E3;
 }
-th{
+
+th {
     border: 1px solid #FFE3E3;
     background-color: #FFE3E3;
 }
-.column-notes{
+
+.column-notes {
     background-color: #FFE3E3;
 
 }
-table caption{
+
+table caption {
     padding: 1rem;
     font-weight: bolder;
 }
 
-footer{
+footer {
     background-color: #FFA0A0;
     padding: 0.4rem;
     color: white;
