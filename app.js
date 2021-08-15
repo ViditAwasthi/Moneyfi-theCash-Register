@@ -38,12 +38,12 @@ checkButton.addEventListener("click", function validateAmount() {
         cashErrorMessage.innerHTML = "Please Input a Valid Cash & Bill Amount!"
         returnTable.style.display = "none";
         return;
-    } else if (cashAmount.value === billAmount.value) {
+    } else if (Number(cashAmount.value) === Number(billAmount.value)) {
         cashErrorMessage.innerHTML = "No Change Required! Full Amount Paid"
         returnTable.style.display = "none";
         return;
     } else {
-        if (cashAmount.value < billAmount.value) {
+        if (Number(cashAmount.value) < Number(billAmount.value)) {
             returnTable.style.display = "none";
             cashErrorMessage.innerHTML = "Cash Amount Should be Greater than the Bill Amount"
             return;
@@ -57,7 +57,7 @@ checkButton.addEventListener("click", function validateAmount() {
 
 
 function calculateChange(amountToBeReturned) {
-    if (cashAmount.value < billAmount.value) {
+    if (Number(cashAmount.value) < Number(billAmount.value)) {
         returnTable.style.display = "none";
         cashErrorMessage.innerHTML = "Cash Amount Should be Greater than the Bill Amount"
         return;
